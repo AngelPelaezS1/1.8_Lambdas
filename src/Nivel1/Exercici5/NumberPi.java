@@ -1,5 +1,7 @@
 package Nivel1.Exercici5;
 
-public interface functionalInterface {
+@FunctionalInterface
+public interface NumberPi {
+
     public Double getPiVAlue();
 }
