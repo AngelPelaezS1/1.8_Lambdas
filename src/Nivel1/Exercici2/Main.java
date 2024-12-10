@@ -11,8 +11,8 @@ import java.util.stream.Collectors;
 
 
             List<String> filteredCountries = names.stream()
-                    .filter(n -> n.contains("o"))
-                    .filter(n -> n.length() > 5)
+                    .filter(name -> name.contains("o"))
+                    .filter(name -> name.length() > 5)
                     .collect(Collectors.toList());
 
             System.out.println(filteredCountries);

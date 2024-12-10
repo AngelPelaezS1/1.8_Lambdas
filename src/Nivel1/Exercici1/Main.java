@@ -10,7 +10,7 @@ public class Main {
 
 
         List<String> filteredCountries = countries.stream()
-                .filter(s -> s.contains("o"))
+                .filter(countrie -> countrie.contains("o"))
                 .collect(Collectors.toList());
 
         System.out.println(filteredCountries);
